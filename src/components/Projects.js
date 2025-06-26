@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
-import proj1Img1 from "../assets/images/bukin-app.png";
-import proj1Img2 from "../assets/images/bukin-app-2.png";
-import proj1Img3 from "../assets/images/bukin-app-2.png";
+import proj1Img1 from "../assets/images/bukin.png";
+import proj1Img2 from "../assets/images/bukin2.png";
+import proj1Img3 from "../assets/images/bukin3.png";
 import project2Img1 from "../assets/images/project2Img1.jpg"
 import colorSharp2 from "../assets/images/color-sharp2.png";
 import 'animate.css';

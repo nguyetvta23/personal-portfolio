@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {useEffect, useState} from 'react';
 import logo from '../assets/images/logo.png';
-import navIcon1 from "../assets/images/nav-icon1.svg";
+// import navIcon1 from "../assets/images/nav-icon1.svg";
 import navIcon2 from "../assets/images/email-icon.svg";
 import navIcon3 from "../assets/images/nav-git.svg";
 
@@ -49,7 +49,7 @@ function NavBar() {
         </Navbar.Collapse>
         <span className='navbar-text'>
             <div className="social-icon">
-                <a href='/'><img alt='#' src={navIcon1}/></a>
+                {/* <a href='/'><img alt='#' src={navIcon1}/></a> */}
                 <a href= "mailto:nguyetvta23@gmail.com"><img src={navIcon2} alt="Icon" /></a>
                 <a href={'https://github.com/nguyetvta23'}><img alt='#' src={navIcon3}/></a>
             </div>

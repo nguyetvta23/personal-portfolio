@@ -16,17 +16,18 @@ const About = () => {
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <h1>About me</h1>
                                     <p className="about-me">
-                                        Hi! I'm Vo Thi Anh Nguyet, a passionate and creative web designer who graduated from FPT Polytechnic HCM, majoring in Web Design.                                       
-                                        <br/>
+                                        Hi! I'm Vo Thi Anh Nguyet, a passionate and creative web designer who graduated from FPT Polytechnic HCM, majoring in Web Design.
+
                                         During my studies, I gained hands-on experience in building user-friendly and responsive websites using HTML, CSS, JavaScript, and modern frameworks.
-                                        <br/>
-                                        I'm now looking for opportunities to join a dynamic team where I can contribute my skills, continue learning, and grow into a full-stack web developer in the future.
-                                        <br/>
-                                        If you're looking for a dedicated and fast-learning web designer — <br/>
-                                        <strong>I'm ready to be hired!</strong>
+
+                                        Currently, I'm pursuing a degree in Information Technology at UIT, where I am expanding my knowledge not only in web development but also in Artificial Intelligence — a field I'm eager to explore further.
+
+                                        I'm now looking for opportunities to join a dynamic team where I can contribute my skills, continue learning, and grow into a full-stack web developer with a strong foundation in AI in the future.
+
+                                        If you're looking for a dedicated, fast-learning web designer with a growth mindset — <strong>I'm ready!</strong>
                                     </p>
-                                    <a className="hire-me" href= "mailto:nguyetvta23@gmail.com">
-                                    <button >Hire me</button></a>
+                                    <a className="hire-me" href="mailto:nguyetvta23@gmail.com">
+                                        <button >Hire me</button></a>
                                 </div>}
                         </TrackVisibility>
                     </Col>
@@ -34,7 +35,7 @@ const About = () => {
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                                    <img src={headerImg} alt="Header Img"/>
+                                    <img src={headerImg} alt="Header Img" />
                                 </div>}
                         </TrackVisibility>
                     </Col>
