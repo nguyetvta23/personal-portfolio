@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/images/contact-img.svg";
+import headerImg from "../assets/images/avatar.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 const About = () => {
     return (
-        <section className="banner" id="about">
+        <section className="about" id="about">
             <Container>
                 <Row className="aligh-items-center">
                     <Col xs={12} md={6} xl={7}>

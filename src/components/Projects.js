@@ -51,25 +51,25 @@ const Projects = () => {
           }
           
     ];
-    const project3 = [
-        {
-            title: "Rooms Booking App",
-            description: " A mini booking application using NodeJS, NextJs, Appwrite and TailwindCSS",
-            imgUrl: proj1Img1,
-            link: 'https://bukin-app.vercel.app/',
-        },
-        {
-            title: "Sneaker Website",
-            description: "My graduation project - E-commerce website using PHP Laravel framework in Back-end, Javasript in front-end and mySQL for database",
-            imgUrl: proj1Img1,
-            link: 'https://github.com/nguyetvta23/ECommerce_Laravel.git'
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: proj1Img1,
-        },
-    ];
+    // const project3 = [
+    //     {
+    //         title: "Rooms Booking App",
+    //         description: " A mini booking application using NodeJS, NextJs, Appwrite and TailwindCSS",
+    //         imgUrl: proj1Img1,
+    //         link: 'https://bukin-app.vercel.app/',
+    //     },
+    //     {
+    //         title: "Sneaker Website",
+    //         description: "My graduation project - E-commerce website using PHP Laravel framework in Back-end, Javasript in front-end and mySQL for database",
+    //         imgUrl: proj1Img1,
+    //         link: 'https://github.com/nguyetvta23/ECommerce_Laravel.git'
+    //     },
+    //     {
+    //         title: "Business Startup",
+    //         description: "Design & Development",
+    //         imgUrl: proj1Img1,
+    //     },
+    // ];
 
     return (
         <section className="project" id="projects">
@@ -91,9 +91,9 @@ const Projects = () => {
                                             <Nav.Item>
                                                 <Nav.Link eventKey="second">Ecommerce Website</Nav.Link>
                                             </Nav.Item>
-                                            <Nav.Item>
+                                            {/* <Nav.Item>
                                                 <Nav.Link eventKey="third">My portfolio</Nav.Link>
-                                            </Nav.Item>
+                                            </Nav.Item> */}
                                         </Nav>
                                         <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                                             <Tab.Pane eventKey="first">
@@ -124,7 +124,7 @@ const Projects = () => {
                                                     }
                                                 </Row>
                                             </Tab.Pane>
-                                            <Tab.Pane eventKey="third">
+                                            {/* <Tab.Pane eventKey="third">
                                                 <Row>
                                                     {
                                                         project3.map((project, index) => {
@@ -137,7 +137,7 @@ const Projects = () => {
                                                         })
                                                     }
                                                 </Row>
-                                            </Tab.Pane>
+                                            </Tab.Pane> */}
                                         </Tab.Content>
                                     </Tab.Container>
                                 </div>}
