@@ -62,7 +62,7 @@ const Banner = () => {
                   <p>I am a passionate Front-End Developer with a strong interest in building responsive and user-friendly web interfaces. I'm constantly learning and improving my skills in modern front-end technologies, and I'm also exploring the fundamentals of Artificial Intelligence to integrate smarter features into future web applications and broaden my career path in tech.
 
                   </p>
-                  <a href="/CV-Vo-Thi-Anh-Nguyet.pdf" target="_blank">
+                  <a href="/Vo-Thi-Anh-Nguyet_CV.pdf" target="_blank">
                   <button>View CV</button>
                   </a>                
                 </div>}
